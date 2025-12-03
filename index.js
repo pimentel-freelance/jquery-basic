@@ -36,3 +36,10 @@ $("input").keypress(function(event) {
 $("h1").on("mouseover", function() {
     $("h1").css("color", "blue");
 });
+
+// Positions inside and outside an element
+// $("h1").before("<button>Hello</button>");
+// $("h1").after("<button>Hello</button>");
+// $("h1").append("<button>Hello</button>");
+// $("h1").prepend("<button>Hello</button>");
+
